@@ -1,0 +1,175 @@
+/*Kerner, WMD 140 Fall Semester, D. Hurwich
+--my first CSS style sheet--*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Raleway:300,400,800');
+
+html, body {
+    height: 100%;
+}
+
+
+
+body {
+    background: #151e31;
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h1{
+    font-family: "Comfortaa", "Arial Black", cursive;
+    font-size: 38px;
+    color: #ef89a6;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+h2{
+    font-family: "Comfortaa", "Arial Black", cursive;
+    font-size: 22px;
+    color: #d53c73;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ef89a6;
+}
+
+h3{
+    font-family: "Comfortaa", "Arial Black", cursive;
+    font-size: 32px;
+    color: #d53c73;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+    border-bottom: 9px dotted #ef89a6;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #ef89a6;
+}
+p {
+    font-family: "Railway", Arial, sans-serif;
+    color: #dedfca;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1em;
+    text-align: left;  
+}
+
+.sourcep {
+    font-family: "Railway", Arial, sans-serif;
+    color: #dedfca;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1em;
+    text-align: left;  
+    text-indent: 3em;
+}
+
+figcaption {
+    font-family: "Comfortaa", "Arial Black", cursive;
+    color: #5751f5;
+    font-size: 1em;
+    text-shadow: 3px 3px #000;
+}
+
+.biobox {
+    width: 590px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.albumbox {
+    width: 590px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.formboxp {
+    font-family: "Railway", Arial, sans-serif;
+    color: #dedfca;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1em;
+    text-align: left;  
+    text-indent: 0em;
+}
+
+.formbox {
+    width: 700px;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    border: 5px solid #ef89a6;
+    border-radius: 25px;
+    padding: 5px 35px;
+    margin-bottom: 50px;
+}
+
+.album-ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #dedfca;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    font-family: "Railway", sans-serif;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+.imagegallerybox {
+    width: 590px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.footerbox {
+    font-family: "Comfortaa", "Arial Black", cursive;
+    color: #dedfca;
+    font-size: 12px;
+    font-weight: 100;
+    text-shadow: 1px 1px #ef89a6;
+    width: 590px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 800px;
+    border: 10px solid #d53c73;
+    padding: 50px;
+    margin: auto;
+
+}
+
+/* CODE REFERENCES 
+fonts:
+font-family: 'Comfortaa', cursive;
+font-family: 'Raleway', sans-serif;
+
+colors:
+#dedfca: caravan sky
+#151e31: caravan blue
+#5751f5: caravan royal
+#d53c73: caravan pink
+#ef89a6: caravan pale
+*/
