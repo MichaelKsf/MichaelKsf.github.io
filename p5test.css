@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* start of Kerner css */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700|Barlow:200,300,700,900');
+
+/* sticky translucent nav bar */
+
+nav {
+    background-color: rgba(119, 120, 123, .5);
+    width: 100%;
+    height: 47px;
+    margin: auto;
+    position: fixed;
+    z-index: 9;
+}
+
+nav ul{
+    float: right;
+    margin-top: 10px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    letter-spacing: .05em;
+    font-size: 1.25em;
+    padding: 15px;
+    background-color: ;
+}
+
+nav li a:hover {
+    background-color: rgba(119, 120, 123, 1);
+    border-bottom: 2px solid rgba(255, 79, 0, 1);
+}
+
+.active {
+    background-color: rgba(255, 79, 0, .5);
+    border-bottom: 2px solid rgba(255, 79, 0, 1);
+}
+
+
+/* different hero images & headers for each page */
+
+.indexheader {
+    /* background-color: rgba(119, 120, 123, .3); */
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(p5testimages/smurfs+castro+bar.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.headerbayarea {
+    /*background-color: rgba(119, 120, 123, .3);*/
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(p5testimages/golden+gate+bridge_china+beach.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.headersf {
+    /*background-color: rgba(119, 120, 123, .3);*/
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(p5testimages/drag+queen_clown_muni.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.headercastro {
+    /*background-color: rgba(119, 120, 123, .3);*/
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(p5testimages/castro_rainbow+flag_dusk.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.headermylife {
+    /*background-color: rgba(119, 120, 123, .3);*/
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(p5testimages/HMCRA_SFedfund_volunteer.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+q {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: rgba(255, 255, 255, .);
+    /* font-family: "Barlow Semi Condensed", sans-serif;*/
+    font-family: "Barlow", sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: .05em;
+    padding-bottom: 16px;
+    border-bottom: 5px solid rgba(255, 79, 0, .5);
+    text-shadow: 3px 3px 10px rgba(119, 120, 123, .7);
+}
+
+.quotename {
+    /* font-family: "Barlow", sans-serif; */
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: .5em;
+    font-weight: 300;
+    letter-spacing: .05em;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 10px rgba(119, 120, 123, .9);
+    font-style: italic;
+}
+
+.respimg {
+    max-width: 100%;
+        }
+
+section {
+    /* background-color: rgba(119, 120, 123, .7);*/
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+
+article {
+    /* background-color: rgba(119, 120, 123, .6); */
+    width: 66%;
+    height: auto;
+    float: left;
+}
+
+.clear {
+    clear: both;
+    border-top: 6px solid rgba(255, 79, 0, .5);
+    padding-top: 50px;
+    
+    
+}
+
+.gallery {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    
+}
+aside {
+    /* background-color: rgba(119, 120, 123, .3); */
+    width: 33%;
+    height: auto;
+    float: right;
+    
+}
+
+h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: rgba(255, 79, 0, .7);
+    letter-spacing: -.05em;
+    padding: 0px 0px 16px 0px;
+    /* border-left: 5pt solid rgba(255, 79, 0, .9)*/
+    
+}
+
+h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: rgba(113, 41, 72, .9);
+    letter-spacing: .07em;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #77787b;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+    padding: 0px 15px 15px 15px;
+}
+
+aside p {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #77787b;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-size: .7em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: .07em;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    background-color: rgba(119, 120, 123, .1);
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: .8em;
+    font-weight: 200;
+    color: #77787b;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+}
+
+footer div {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.headshot {
+    border-radius: 125px;
+}
+
+img {
+    padding: 10px;
+    
+}
+.kernercreative {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgba(113, 41, 72, .3);
+}
+
+.center {
+    padding-left: 20px;
+    text-align: center;
+    
+}
+/* font & color references:
+
+http://www.colorhexa.com/ff4f00
+
+international orange hex #ff4f00
+rgb(255, 79, 0) 
+rgba(255, 79, 0, .5)
+
+dark red: #712948
+rgb(113, 41, 72)
+rgba(113, 41, 72, .5)
+
+65% grey: #77787b
+rgb(119, 120, 123)
+rgba(119, 120, 123, .5)
+
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Barlow', sans-serif; */
+
+*/
+
