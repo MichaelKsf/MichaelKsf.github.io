@@ -125,7 +125,7 @@ nav li a:hover {
     width: 1000px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(p5testimages/drag+queen_clown_muni.jpg);
+    background-image: url(p5testimages/conservatory%20of%20flowers.jpg);
     background-repeat: no-repeat;
     text-align: center;
     color: white;
@@ -137,7 +137,7 @@ nav li a:hover {
     width: 1000px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(p5testimages/castro_rainbow+flag_dusk.jpg);
+    background-image: url(p5testimages/drag+queen_clown_muni.jpg);
     background-repeat: no-repeat;
     text-align: center;
     color: white;
@@ -206,7 +206,7 @@ article {
 
 .clear {
     clear: both;
-    border-top: 6px solid rgba(255, 79, 0, .5);
+    /* border-top: 3px solid rgba(255, 79, 0, .5);*/
     padding-top: 50px;
     
     
@@ -223,6 +223,7 @@ aside {
     width: 33%;
     height: auto;
     float: right;
+    /* overflow: scroll;*/
     
 }
 
@@ -255,32 +256,29 @@ article p {
     color: #77787b;
     letter-spacing: .025em;
     line-height: 1.5em;
-    padding: 0px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
 }
 
+.floatleft {
+    float: left;
+}
+
+.floatleftclear {
+    float: left;
+    clear: both;
+}
 aside p {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 1em;
     font-weight: 200;
-    color: #77787b;
+    color: #712948;
     letter-spacing: .025em;
     line-height: 1.5em;
-    padding-bottom: 50px;
+    padding: 0px 0px 10px 10px;
 }
-
-h3 {
-    font-family: "Barlow", sans-serif;
-    font-weight: 900;
-    font-size: .7em;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 1);
-    letter-spacing: .07em;
-    padding-bottom: 10px;
-}
-
 
 footer {
-    background-color: rgba(119, 120, 123, .1);
+    background-color: rgba(119, 120, 123, .);
     width: 1000px;
     height: auto;
     margin: 0 auto;
@@ -291,6 +289,9 @@ footer {
     color: #77787b;
     letter-spacing: .025em;
     line-height: 1.5em;
+    border-top: 3px solid rgba(255, 79, 0, .5);
+    padding-top: 30px;
+    
 }
 
 footer div {
@@ -304,7 +305,10 @@ footer div {
 }
 
 img {
-    padding: 10px;
+    /*padding: 15px;*/
+    /*box-shadow: 5px 5px 15px rgba(119, 120, 123, .5);*/
+    padding: 15px;
+    
     
 }
 .kernercreative {
@@ -317,8 +321,29 @@ img {
 .center {
     padding-left: 20px;
     text-align: center;
-    
 }
+
+h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-size: .7em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: .07em;
+    padding: 0px 0px 5px 10px;
+}
+
+.caption {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: .9em;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: .025em;
+    line-height: 1.5em;
+    padding: 0px 0px 10px 0px;
+}
+
+
 /* font & color references:
 
 http://www.colorhexa.com/ff4f00
